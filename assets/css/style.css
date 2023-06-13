@@ -63,3 +63,26 @@ h2 {
     /* why is the not working??? */
     color: #0d0d0d;
 }
+
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #0d0d0d;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+}
