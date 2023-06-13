@@ -104,3 +104,32 @@ h2 {
     padding: 50px;
     color: white;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #photos {
+        column-count: 4;
+    }
+
+}
+
+/* For larger to medium screens size from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+
+}
