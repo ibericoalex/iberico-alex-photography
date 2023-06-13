@@ -126,10 +126,30 @@ h2 {
         margin-right: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        font-size: 110%;
     }
 
     #photos {
         column-count: 3;
+    }
+
+}
+
+/* For larger to medium screens size from 650px wide and down */
+
+@media screen and (max-width: 650px) {
+
+    #menu {
+        clear: left;
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        line-height: 15px;
+        font-size: 90%;
+    }
+
+    #photos {
+        column-count: 2;
     }
 
 }
