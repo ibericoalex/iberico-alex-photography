@@ -64,6 +64,25 @@ h2 {
     color: #0d0d0d;
 }
 
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 4;
+    column-count: 4;
+    column-gap: 4;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#photos>img {
+    width: 100%;
+    height: auto;
+}
+
+#photos>img:hover {
+    opacity: 50%;
+}
 
 /* footer */
 
@@ -86,3 +105,4 @@ footer {
     padding: 5%;
     color: white;
 }
+
