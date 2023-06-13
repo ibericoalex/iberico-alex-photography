@@ -27,3 +27,39 @@ h2 {
     float: left;
     font-size: 300%;
 }
+
+
+/* navigation links */
+
+#menu {
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #f00;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+#menu a:hover {
+    color: #0d0d0d;
+}
+
+.active {
+    border-bottom: 1px solid #0d0d0d;
+    /* why is the not working??? */
+    color: #0d0d0d;
+}
