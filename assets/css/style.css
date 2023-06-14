@@ -17,6 +17,20 @@ body {
 
 /* Headings and logo */
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: 9999;
+}
+
+.content {
+    padding-top: 100px;
+}
+
 h1,
 h2 {
     font-family: Roboto, sans-serif;
