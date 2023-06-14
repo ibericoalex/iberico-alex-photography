@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&family=Roboto:wght@700;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -175,75 +179,49 @@ footer {
 
 /* About me section */
 
-.about-container {
+.about-area {
+    /* background-color: green; */
     display: grid;
     place-content: center;
-    margin: auto 0;
 }
 
-.about-section {
-    width: 800px;
-    min-height: 500px;
+.about-container {
+    /* background-color: red; */
     padding: 40px;
-    background-color: green;
-
+    width: 800px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     place-items: center;
 }
 
-.about-section .portrait-image {
-    width: 60%;
-    margin-right: 300px;
-    grid-area: 1 / 1;
+.about-container .about-image {
+    width: 600px;
+    grid-area: 1 /1;
+    margin-right: 600px;
 }
 
-.about-section .quote {
-    width: 200px;
-    padding-left: 20%;
-    grid-area: 1 / 1;
+.about-image img {
+    width: 400px;
+
 }
 
-.about-section .description {
-    width: 300px;
-    margin-top: 200px;
-    margin-left: 30%;
-    grid-area: 1 / 1;
+.about-container .about-quote {
+    width: 600px;
+    grid-area: 1 /1;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    font-size: 150%;
+    font-weight: 600;
+    text-align: right;
+}
+
+.about-container .about-description {
     background-color: white;
-}
-
-/* .about-section {
-    width: 800px;
-    min-height: 500px;
-    padding: 40px;
-    background-color: green;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    place-items: center;
-}
-
-.about-section .portrait-image {
-    width: 60%;
-    margin-right: 300px;
+    width: 500px;
     grid-area: 1 / 1;
+    padding: 20px 40px;
 }
-
-.about-section .quote {
-    width: 200px;
-    padding-left: 20%;
-    grid-area: 1 / 1;
-}
-
-.about-section .description {
-    width: 300px;
-    margin-top: 200px;
-    margin-left: 30%;
-    grid-area: 1 / 1;
-    background-color: white;
-} */
 
 /* Media queries */
 
