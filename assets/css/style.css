@@ -105,6 +105,51 @@ h2 {
     color: white;
 }
 
+/* video carousel */
+
+.video-carousel {
+    clear: both;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.side-videos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 20%;
+}
+
+.side-video {
+    opacity: 0.5;
+}
+
+.side-video:hover {
+    opacity: 1;
+}
+
+.side-video img {
+    width: 120px;
+    height: auto;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
