@@ -207,7 +207,7 @@ footer {
 }
 
 .about-container .about-quote {
-    width: 600px;
+    width: 550px;
     grid-area: 1 /1;
     margin-left: 100px;
     margin-bottom: 200px;
@@ -218,9 +218,18 @@ footer {
 
 .about-container .about-description {
     background-color: white;
-    width: 500px;
+    width: 600px;
     grid-area: 1 / 1;
     padding: 20px 40px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    position: relative;
+    top: 250px;
+
+}
+
+.about-description p {
+    margin-bottom: 10px;
+    line-height: 25px;
 }
 
 /* Media queries */
