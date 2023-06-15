@@ -19,7 +19,10 @@ body {
     flex-direction: column;
 }
 
-/* Headings and logo */
+
+
+
+/* HEADER AND LOGO */
 
 header {
     position: fixed;
@@ -35,8 +38,7 @@ header {
     padding-top: 100px;
 }
 
-h1,
-h2 {
+h1 {
     font-family: Roboto, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -51,7 +53,10 @@ h2 {
 }
 
 
-/* navigation links */
+
+
+
+/* NAVIGATION LINKS */
 
 #menu {
     font-size: 150%;
@@ -83,16 +88,20 @@ h2 {
 
 .active {
     border-bottom: 1px solid #0d0d0d;
-    /* why is the not working??? */
+    /* why is the color not working??? */
     color: #0d0d0d;
 }
 
-/* gallery */
+
+
+
+
+/* GALLERY */
 
 #photos {
     clear: both;
-    line-height: 3;
     column-count: 5;
+    line-height: 3;
     column-gap: 4;
     margin-left: 10%;
     margin-right: 10%;
@@ -108,7 +117,12 @@ h2 {
     opacity: 50%;
 }
 
-/* footer */
+
+
+
+
+
+/* FOOTER */
 
 footer {
     margin-top: auto;
@@ -132,7 +146,12 @@ footer {
     color: white;
 }
 
-/* video carousel */
+
+
+
+
+
+/* VIDEO CAROUSEL */
 
 .video-carousel {
     clear: both;
@@ -161,7 +180,6 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-
 }
 
 .side-video {
@@ -177,7 +195,11 @@ footer {
     height: auto;
 }
 
-/* About me section */
+
+
+
+
+/* ABOUT ME */
 
 .about-area {
     /* background-color: green; */
@@ -195,7 +217,7 @@ footer {
     place-items: center;
 }
 
-.about-container .about-image {
+.about-image {
     width: 600px;
     grid-area: 1 /1;
     margin-right: 600px;
@@ -203,20 +225,19 @@ footer {
 
 .about-image img {
     width: 400px;
-
 }
 
-.about-container .about-quote {
+.about-quote {
     width: 550px;
-    grid-area: 1 /1;
-    margin-left: 100px;
+    grid-area: 1 / 1;
+    margin-left: 150px;
     margin-bottom: 200px;
     font-size: 150%;
     font-weight: 600;
     text-align: right;
 }
 
-.about-container .about-description {
+.about-description {
     background-color: white;
     width: 600px;
     grid-area: 1 / 1;
@@ -224,7 +245,6 @@ footer {
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     position: relative;
     top: 250px;
-
 }
 
 .about-description p {
@@ -233,7 +253,8 @@ footer {
 }
 
 
-/* Form */
+
+/* CONTACT FORM */
 
 .form-section {
     clear: both;
@@ -290,6 +311,7 @@ footer {
     background-color: #f00;
     color: #fafafa;
     display: block;
+    border: 1px solid #f00;
 }
 
 .join-button:hover {
@@ -298,7 +320,10 @@ footer {
     border: 1px solid #f00;
 }
 
-/* Media queries */
+
+
+
+/* MEDIA QUERIES */
 
 /* For larger to medium screens size from 1200px wide and down */
 
