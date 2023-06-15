@@ -86,7 +86,7 @@ h1 {
     color: #0d0d0d;
 }
 
-.active {
+#menu a.active {
     border-bottom: 1px solid #0d0d0d;
     /* why is the color not working??? */
     color: #0d0d0d;
@@ -132,7 +132,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75px;
     background-color: #0d0d0d;
 }
 
@@ -141,8 +140,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    padding: 50px;
+    font-size: 2rem;
+    padding: 30px;
     color: white;
 }
 
@@ -215,6 +214,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     place-items: center;
+    margin-bottom: 300px;
 }
 
 .about-image {
@@ -260,12 +260,13 @@ footer {
     clear: both;
     background-size: cover;
     background-position: center;
-    height: 900px;
     padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    display: inline;
     max-width: 500px;
     position: relative;
     margin: 0 auto;
@@ -299,6 +300,10 @@ footer {
 }
 
 .text-input:hover {
+    border-color: #f00;
+}
+
+.textarea:hover {
     border-color: #f00;
 }
 
