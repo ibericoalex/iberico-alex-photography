@@ -101,8 +101,8 @@ h1 {
 #photos {
     clear: both;
     column-count: 5;
-    line-height: 3;
-    column-gap: 4;
+    line-height: 2;
+    column-gap: 10px;
     margin-left: 10%;
     margin-right: 10%;
 }
