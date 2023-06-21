@@ -151,7 +151,7 @@ footer {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    padding-top: %;
+    padding-top: 5%;
 }
 
 .video-container {
@@ -200,13 +200,13 @@ footer {
 /* ------------ ABOUT ME ------------ */
 
 .about-area {
-    /* background-color: green; */
+    background-color: green;
     display: grid;
     place-content: center;
 }
 
 .about-container {
-    /* background-color: red; */
+    background-color: red;
     padding: 40px;
     width: 800px;
     display: grid;
@@ -223,7 +223,7 @@ footer {
 }
 
 .about-image img {
-    width: 400px;
+    max-width: 400px;
 }
 
 .about-quote {
@@ -241,7 +241,7 @@ footer {
     width: 600px;
     grid-area: 1 / 1;
     padding: 20px 40px;
-    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     position: relative;
     top: 250px;
 }
@@ -370,6 +370,13 @@ footer {
     .content {
         padding-top: 80px;
     }
+
+    /* ADDED ABOUT AREA */
+    .about-container {
+        transform: scale(auto);
+
+    }
+
     
 }
 
