@@ -109,7 +109,7 @@ h1 {
 }
 
 .photos>img:hover {
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 
@@ -200,13 +200,13 @@ footer {
 /* ------------ ABOUT ME ------------ */
 
 .about-area {
-    background-color: green;
+    /* background-color: green; */
     display: grid;
     place-content: center;
 }
 
 .about-container {
-    background-color: red;
+    /* background-color: red; */
     padding: 40px;
     width: 800px;
     display: grid;
@@ -218,7 +218,7 @@ footer {
 
 .about-image {
     width: 600px;
-    grid-area: 1 /1;
+    grid-area: 1 / 1;
     margin-right: 600px;
 }
 
