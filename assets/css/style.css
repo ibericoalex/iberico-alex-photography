@@ -31,7 +31,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5); */
     backdrop-filter: blur(2px);
     z-index: 9999;
 }
@@ -259,13 +259,16 @@ footer {
 
 /* ------------ CONTACT FORM ------------ */
 
-.form-section {
-    clear: both;
-    background-size: cover;
-    background-position: center;
-    padding-top: 5%;
+.about-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.form-section {
+    max-width: 800px;
+    display: flex;
+    margin-left: auto;
 }
 
 .signup-form {
@@ -328,7 +331,20 @@ footer {
     border: 1px solid #f00;
 }
 
+/* Google map */
 
+.google-map {
+    margin-right: auto;
+    margin-left: 50px;
+    display: flex;
+}
+
+.google-map iframe {
+    min-height: 606px;
+    width: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
 
 /* ------------ MEDIA QUERIES ------------ */
 
