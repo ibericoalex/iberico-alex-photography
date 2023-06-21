@@ -19,10 +19,12 @@ body {
     flex-direction: column;
 }
 
+.content {
+    padding-top: 100px;
+}
 
 
-
-/* HEADER AND LOGO */
+/* ------------ HEADER AND LOGO ------------ */
 
 header {
     position: fixed;
@@ -32,10 +34,6 @@ header {
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
     z-index: 9999;
-}
-
-.content {
-    padding-top: 100px;
 }
 
 h1 {
@@ -48,18 +46,16 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 3rem;
     margin-left: 5%;
 }
 
 
+/* ------------ NAVIGATION LINKS ------------ */
 
-
-
-/* NAVIGATION LINKS */
 
 #menu {
-    font-size: 150%;
+    font-size: 1.5rem;
     text-transform: uppercase;
     margin-right: 10%;
 }
@@ -88,7 +84,6 @@ h1 {
 
 #menu a.active {
     border-bottom: 1px solid #0d0d0d;
-    /* why is the color not working??? */
     color: #0d0d0d;
 }
 
@@ -96,7 +91,7 @@ h1 {
 
 
 
-/* GALLERY */
+/* ------------ IMAGE GALLERY ------------ */
 
 #photos {
     clear: both;
@@ -122,7 +117,7 @@ h1 {
 
 
 
-/* FOOTER */
+/* ------------ FOOTER ------------ */
 
 footer {
     margin-top: auto;
@@ -142,15 +137,14 @@ footer {
 .social-networks i {
     font-size: 2rem;
     padding: 30px;
-    color: white;
+    color: #fafafa;
 }
 
 
 
 
 
-
-/* VIDEO CAROUSEL */
+/* ------------ VIDEO CAROUSEL ------------ */
 
 .video-carousel {
     clear: both;
@@ -198,7 +192,7 @@ footer {
 
 
 
-/* ABOUT ME */
+/* ------------ ABOUT ME ------------ */
 
 .about-area {
     /* background-color: green; */
@@ -232,7 +226,7 @@ footer {
     grid-area: 1 / 1;
     margin-left: 150px;
     margin-bottom: 200px;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: right;
 }
@@ -254,7 +248,7 @@ footer {
 
 
 
-/* CONTACT FORM */
+/* ------------ CONTACT FORM ------------ */
 
 .form-section {
     clear: both;
@@ -312,7 +306,7 @@ footer {
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
-    font-size: 100%;
+    font-size: 1rem;
     background-color: #f00;
     color: #fafafa;
     display: block;
@@ -327,52 +321,89 @@ footer {
 
 
 
+/* ------------ MEDIA QUERIES ------------ */
 
-/* MEDIA QUERIES */
+/* For larger to medium screens size from 1300px wide and down */
 
-/* For larger to medium screens size from 1200px wide and down */
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     #photos {
         column-count: 4;
     }
 
 }
 
+
 /* For larger to medium screens size from 1050px wide and down */
 
 @media screen and (max-width: 1050px) {
 
+    header {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        /* background-color: blue */
+    }
+
+    #logo {
+        height: 50px;
+        line-height: normal;
+        margin: 0;
+    }
+    
+    
     #menu {
-        clear: left;
-        float: right;
-        margin-right: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: 110%;
+        margin-right: 0;
+        line-height: 50px;
+        font-size: 1.2rem;    
     }
 
     #photos {
         column-count: 3;
+        margin: 3% 5%;
     }
 
+    .content {
+        padding-top: 80px;
+    }
+    
 }
 
 /* For larger to medium screens size from 650px wide and down */
 
 @media screen and (max-width: 650px) {
 
-    #menu {
-        clear: left;
-        float: right;
-        margin-right: 30px;
-        margin-bottom: 20px;
-        line-height: 15px;
-        font-size: 90%;
-    }
-
     #photos {
         column-count: 2;
+        margin: 2%;
+    } 
+
+    .content {
+        padding-top: 90px;
     }
+
+}
+
+/* For larger to medium screens size from 500px wide and down */
+
+@media screen and (max-width: 500px) {
+
+    #logo {
+        font-size: 2.5rem;
+        height: 40px;
+        line-height: normal;
+        margin: 0;
+    }
+
+    #menu {
+        font-size: 1rem;
+    }
+
+    #menu li {
+        margin-left: 15px;
+    }
+
+
+
+
 
 }
