@@ -261,8 +261,11 @@ footer {
 
 .about-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 5%;
+    flex-direction: row;
+    align-content: space-around;
 }
 
 .form-section {
@@ -336,7 +339,10 @@ footer {
 .google-map {
     margin-right: auto;
     margin-left: 50px;
-    display: flex;
+    /* display: flex; */
+    /* width: calc(100% - 20px);
+    flex-direction: column; */
+    
 }
 
 .google-map iframe {
@@ -395,6 +401,17 @@ footer {
     .about-container {
         transform: scale(auto);
 
+    }
+
+    .about-section {
+        flex-direction: column;        
+    }
+    .google-map {
+        margin: 40px 0;
+    }
+
+    .google-map iframe {
+        width: 100%;
     }
 
     
