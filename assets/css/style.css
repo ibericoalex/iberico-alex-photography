@@ -103,9 +103,7 @@ h1 {
 
 .photos>img {
     width: 100%;
-    /* height: auto; */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    /* max-width: 300px; */
 }
 
 .photos>img:hover {
@@ -225,7 +223,6 @@ footer {
 
 .about-image {
     flex: 0 0 30%;
-    /* background-color: red; */
     position: relative;
     left: 4rem;
 }
@@ -236,7 +233,6 @@ footer {
 
 .about-quote {
     flex: 0 0 60%;
-    /* background-color: rgb(21, 18, 207); */
     z-index: 999;
     font-size: 1.5rem;
     font-weight: 600;
