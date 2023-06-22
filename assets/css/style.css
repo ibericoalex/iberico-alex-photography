@@ -17,7 +17,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-display: swap;
 }
 
 .content {
@@ -32,7 +31,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
     z-index: 9999;
 }
@@ -107,6 +106,7 @@ h1 {
     width: 100%;
     height: auto;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
 }
 
 .photos>img:hover {
@@ -398,12 +398,6 @@ footer {
         padding-top: 80px;
     }
 
-    /* ADDED ABOUT AREA */
-    .about-container {
-        transform: scale(auto);
-
-    }
-
     .about-section {
         flex-direction: column;        
     }
@@ -464,7 +458,4 @@ footer {
         flex-direction: column;  
         margin: 0 5%      
     }
-
-    ;
-
 }
