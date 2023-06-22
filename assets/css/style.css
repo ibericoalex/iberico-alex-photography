@@ -229,7 +229,7 @@ footer {
 }
 
 .about-image img {
-    max-width: 70%;
+    width: 240px;
 }
 
 .about-quote {
