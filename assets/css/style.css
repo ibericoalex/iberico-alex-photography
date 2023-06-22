@@ -124,11 +124,21 @@ footer {
     margin-top: auto;
 }
 
+.footer-content {
+    text-align: center;
+    background-color: #0d0d0d;
+    color: #fafafa;
+}
+
+.footer-content p {
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+
 .social-networks {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0d0d0d;
 }
 
 .social-networks>li {
@@ -137,9 +147,10 @@ footer {
 
 .social-networks i {
     font-size: 2rem;
-    padding: 30px;
+    padding: 20px;
     color: #fafafa;
 }
+
 
 
 

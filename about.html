@@ -83,25 +83,34 @@
     </main>
 
     <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com/ibericoalexphotography" target="_blank" rel="noopener"
-                    aria-label="Visit facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/iberico_alex/" target="_blank" rel="noopener"
-                    aria-label="Visit instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/@ibericoalex" target="_blank" rel="noopener"
-                    aria-label="Visit youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-        </ul>
+        <div class="footer-content">
+            <ul class="social-networks">
+                <li>
+                    <a href="https://www.facebook.com/ibericoalexphotography" target="_blank" rel="noopener"
+                        aria-label="Visit facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/iberico_alex/" target="_blank" rel="noopener"
+                        aria-label="Visit instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@ibericoalex" target="_blank" rel="noopener"
+                        aria-label="Visit youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+            <p class="copyright">Iberico Alex Photography - © Copyright <span id="copyright-year"></span></p>
+        </div>
     </footer>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/9b9af46513.js" crossorigin="anonymous"></script>
 
+    <!-- JavaScript -->
+    <script>
+        document.getElementById("copyright-year").innerHTML =
+            new Date().getFullYear();
+    </script>
 </body>
 
 </html>
