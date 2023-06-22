@@ -215,14 +215,61 @@ footer {
 
 /* ------------ ABOUT ME ------------ */
 
-.about-area {
-    /* background-color: green; */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3% 10%;
+}
+
+.about-image {
+    flex: 0 0 30%;
+    /* background-color: red; */
+    position: relative;
+    left: 4rem;
+}
+
+.about-image img {
+    max-width: 70%;
+}
+
+.about-quote {
+    flex: 0 0 60%;
+    /* background-color: rgb(21, 18, 207); */
+    z-index: 999;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 10%;
+    max-width: 500px;
+    right: 15rem;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    flex-basis: 100%;
+    padding: 10px;
+    background-color: #fafafa;
+    padding: 20px 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    bottom: 6rem;
+    left: 6rem;
+    margin: 0 30% 0% 20%;
+}
+
+
+
+/* .about-area {
+    background-color: green;
     display: grid;
     place-content: center;
 }
 
 .about-container {
-    /* background-color: red; */
+    background-color: red;
     padding: 40px;
     width: 800px;
     display: grid;
@@ -265,7 +312,7 @@ footer {
 .about-description p {
     margin-bottom: 10px;
     line-height: 25px;
-}
+} */
 
 
 
@@ -420,6 +467,37 @@ footer {
         width: 100%;
     }
 
+    .about-container {
+        /* align-items: center; */
+        /* text-align: center; */
+        flex-direction: column;
+        margin: 3% 10%;
+    }
+
+    .about-image {
+        flex: 0 0 50%;
+        /* flex-basis: 100%; */
+        /* background-color: #f00; */
+        margin: 0;
+        left: 0;
+    }
+
+    .about-quote {  
+        flex: 0 0 50%;  
+        /* flex-basis: 100%; */
+        /* background-color: rgb(21, 18, 207); */
+        font-size: 1.2rem;
+        text-align: center;
+        right: 0;
+        margin: 0;
+    }
+
+    .about-description {
+        bottom: 0rem;
+        margin: 10px 0 30px 0; 
+        left: 0;
+
+    }
     
 }
 
