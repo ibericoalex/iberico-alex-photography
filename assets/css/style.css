@@ -161,7 +161,8 @@ footer {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    padding-top: 5%;
+    /* padding-top: 5%; */
+    padding: 10px;
 }
 
 .video-container {
@@ -264,9 +265,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     flex-direction: row;
     align-content: space-around;
+    padding: 10px;
 }
 
 .form-section {
