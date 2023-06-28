@@ -111,7 +111,12 @@ As the user navigates through the website, the following elements consistently a
 
 The landing page serves as the initial entry point for users when they first visit the website. It prominently showcases the portfolio of the photographer, providing a captivating introduction to their body of work.
 
-The gallery
+The photo gallery draws inspiration from the Code Institute Love Running gallery masonry. When hovering over an image, it reduces its opacity to indicate the selected photo. The ultimate goal is to enable image enlargement upon clicking; however, implementing this functionality would require the use of JavaScript.
+
+Additional noteworthy features include:
+- The gallery is fully responsive, adjusting the column count based on the screen size for optimal viewing.
+- The navigation bar has a visually appealing effect with a blurred transparent background color.
+- On smaller screens, the navigation bar adapts by switching to a centered layout, ensuring both the logo and navigation options are displayed in a user-friendly manner.
 
 ![landing-page](./assets/documentation/landing-page.png)
 
@@ -119,10 +124,13 @@ The gallery
 
 The landing page serves as the initial entry point for users when they first visit the website. It prominently showcases the portfolio of the photographer, providing a captivating introduction to their body of work.
 
-![landing-page](./assets/documentation/videos-page.png)
+![videos-page](./assets/documentation/videos-page.png)
 
 * Landing page where user first arrives upon opening of application.
 * Single image has been split up into three different images that are links to separate pages in the application.
+
+
+
 
 ![testimonials-page](./assets/documentation/features/testimonials-page.png)
 
