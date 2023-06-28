@@ -5,10 +5,7 @@ After deploying the site, I shared the link with my family and friends for testi
 
 
 ### **Manual Testing**
-Manual testing following the User Stories was carried out throughout the development of the project, with the final results available below.
-
-
-
+Thorough manual testing was conducted during the project's development, aligning with the User Stories. The final results of the testing are provided below.
 
 - As a **user**, I want **to be able to view a consistent colour scheme across the website** so that it **provides a seamless and harmonious browsing experience**.
 
