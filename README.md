@@ -122,9 +122,21 @@ Additional noteworthy features include:
 
 ### **Videos**
 
-The landing page serves as the initial entry point for users when they first visit the website. It prominently showcases the portfolio of the photographer, providing a captivating introduction to their body of work.
+The video page features a minimalist layout that places central focus on the curated video. Below the main video, additional videos are displayed as thumbnails, providing easy access to more content. Users can find relevant information about the curated video directly below, allowing them to gain insights and context. This streamlined design ensures a straightforward and immersive video viewing experience.
+
+The ultimate goal is to implement a functionality where clicking on the additional video thumbnails would switch the main video and its accompanying description. However, achieving this functionality would require expertise in JavaScript programming.
 
 ![videos-page](./assets/documentation/videos-page.png)
+
+
+### **About**
+
+This page serves as an opportunity for users to delve deeper into the photographer's background and learn more about their artistic journey and expertise. It provides valuable insights and information to help users gain a comprehensive understanding of the photographer's unique perspective and qualifications.
+
+![videos-page](./assets/documentation/about-page.png)
+
+
+
 
 * Landing page where user first arrives upon opening of application.
 * Single image has been split up into three different images that are links to separate pages in the application.
