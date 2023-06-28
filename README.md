@@ -8,22 +8,15 @@ Live deployment link can be found [here](https://ibericoalex.github.io/iberico-a
 
 # Table of Contents
 
-1. [Project Goals](#project-goals "Project Goals")
-2. [User Experience](#user-experience "User Experience")
-   - [Target Audience](#target-audience "Target Audience")
-   - [User Requirements and Expectations](#user-requirements-and-expectations "User Requirements and Expectations")
-   - [User Stories](#user-stories "User Stories")
-3. [Design](#design "Design")
-   - [Design Choices](#design-choices "Design Choices")
+1. [User Stories](#user-stories "User Stories")
+2. [Design](#design "Design")
    - [Colour](#colour "Colour")
    - [Fonts](#fonts "Fonts")
-   - [Music & Sounds](#music--sounds "Music & Sounds")
    - [Wireframes](#wireframes "Wireframes")
-4. [Technologies, Languages & Programs Used](#technologies-languages--programs-used)
-5. [Features](#features "Features")
-   - [Existing Features](#existing-features "Existing Features")
-     - [Start Screen](#start-screen "Start Screen")
-     - [Game Screen](#game-screen "Game Screen")
+4. [Features](#features "Features")
+   - [Common Features](#common-features "Common Features")
+     - [Logo and Navigation Bar](#logo-and-navigation-bar "Logo and Navigation Bar")
+     - [Favicon](#favicon "Favicon")
      - [End Screen](#end-screen "End Screen")
    - [Future Features](#future-features "Future Features")
    - [Responsiveness](#responsiveness "Responsiveness")
@@ -35,17 +28,17 @@ Live deployment link can be found [here](https://ibericoalex.github.io/iberico-a
 
 ## **User Stories**
 
-As a **user**, I want **to be able to view a consistent colour scheme across the website** so that it **provides a seamless and harmonious browsing experience**.
+- As a **user**, I want **to be able to view a consistent colour scheme across the website** so that it **provides a seamless and harmonious browsing experience**.
 
-As a **user**, I want **to be able to find and access the navigation bar** so that I can **navigate effortlessly through the platform**.
+- As a **user**, I want **to be able to find and access the navigation bar** so that I can **navigate effortlessly through the platform**.
 
-As a **user**, I want **to be able to view the footer section** so that I can **find social media links**.
+- As a **user**, I want **to be able to view the footer section** so that I can **find social media links**.
 
-As a **user**, I want **to be able to explore Iberico Alex's work, inclusing both photos and videos** so that I  **can appreciate the artist's talent and style**.
+- As a **user**, I want **to be able to explore Iberico Alex's work, inclusing both photos and videos** so that I  **can appreciate the artist's talent and style**.
 
-As a **user**, I want **to be able to learn more about the photographer** so that I can **ensure that his background and artistic approach align with my preferences**.
+- As a **user**, I want **to be able to learn more about the photographer** so that I can **ensure that his background and artistic approach align with my preferences**.
 
-As a **user**, I want **to be able to contact the artist** so that I can **inquire about the services offered**.
+- As a **user**, I want **to be able to contact the artist** so that I can **inquire about the services offered**.
 
 
 ## **Design**
@@ -75,19 +68,6 @@ Before proceeding with any HTML or CSS coding, I made use of Balsamiq to create 
 - Contact page
 ![Wireframe contact](./assets/documentation/Contact.png)
 
-## **Technologies, Languages & Programs Used**
-
-* [HTML](https://www.w3schools.com/html/): Markup language for creating web pages.
-* [CSS](https://www.w3schools.com/CSS/): Stylesheet language for styling the appearance of web pages.
-* [GitHub](https://github.com/): Web-based platform for version control and collaboration on software projects.
-* [GitHub Pages](https://pages.github.com/): Hosting service provided by GitHub for publishing static web pages.
-* [Google Fonts](https://fonts.google.com/): Library of free and open-source web fonts.
-* [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): Automated tool for auditing and improving web page quality.
-* [W3C Validator](https://validator.w3.org/): Tool for checking HTML and CSS code compliance with web standards.
-* [CodeAnywhere](https://codeanywhere.com/): Cloud-based integrated development environment (IDE) for coding, collaborating, and deploying projects.
-* [VSCode](https://code.visualstudio.com/): Free and highly extensible source code editor with built-in features for editing, debugging, and version control integration. It supports various programming languages and is available for multiple platforms.
-
-
 ## **Features**
 ### **Common Features**
 As the user navigates through the website, the following elements consistently appear across every page. These elements maintain a cohesive presence throughout the user's browsing experience.
@@ -105,7 +85,6 @@ As the user navigates through the website, the following elements consistently a
     - The footer is consistently visible on every page of the website. It features social media icons that are linked to the corresponding social media platforms, allowing users to easily connect and stay updated with the photographer on these platforms. This enables seamless access to the artist's social media presence and encourages users to stay connected and engaged with their latest updates.
 
     ![Footer](./assets/documentation/footer.png)
-
 
 ### **Homepage/Portfolio**
 
@@ -142,6 +121,18 @@ The embedded Google Maps feature enables users to easily locate and identify the
 
 ![videos-page](./assets/documentation/contact-page.png)
 
+## **Technologies, Languages & Programs Used**
+
+* [HTML](https://www.w3schools.com/html/): Markup language for creating web pages.
+* [CSS](https://www.w3schools.com/CSS/): Stylesheet language for styling the appearance of web pages.
+* [GitHub](https://github.com/): Web-based platform for version control and collaboration on software projects.
+* [GitHub Pages](https://pages.github.com/): Hosting service provided by GitHub for publishing static web pages.
+* [Google Fonts](https://fonts.google.com/): Library of free and open-source web fonts.
+* [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): Automated tool for auditing and improving web page quality.
+* [W3C Validator](https://validator.w3.org/): Tool for checking HTML and CSS code compliance with web standards.
+* [CodeAnywhere](https://codeanywhere.com/): Cloud-based integrated development environment (IDE) for coding, collaborating, and deploying projects.
+* [VSCode](https://code.visualstudio.com/): Free and highly extensible source code editor with built-in features for editing, debugging, and version control integration. It supports various programming languages and is available for multiple platforms.
+
 ## **Testing**
 
 Testing available [here](./TESTING.md)
@@ -168,8 +159,7 @@ This repository can be cloned and run locally with the following steps:
 - In your IDE, open the terminal and run the git clone command (i.e., git clone https://github.com/ibericoalex/iberico-alex-photography.git). The repository will now be cloned in your workspace.
 
 ## **Credits**
+
 ### **Code**
+### **Content**
 
-### **Acknowledgments**
-
-This project was created in collaboration by [Team Symbiotic+](https://hackathon.codeinstitute.net/teams/314/): [Hermon Asmelash](https://github.com/Hasmelash95), [Iberico Alex](https://github.com/ibericoalex), [Keiron Chaudhry](https://github.com/keironchaudhry), [Stephen Opoku](https://github.com/Stephenkofipoku), [Sam Petchey](https://github.com/sampetchey), [Samuel Ukachukwu](https://github.com/SamuelUkachukwu).
