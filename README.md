@@ -6,24 +6,26 @@ Live deployment link can be found [here](https://ibericoalex.github.io/iberico-a
 
 ![Website mockup](./assets/documentation/Website-mockup.png)
 
-# Table of Contents
+## **Table of Contents**
 
 1. [User Stories](#user-stories "User Stories")
 2. [Design](#design "Design")
    - [Colour](#colour "Colour")
    - [Fonts](#fonts "Fonts")
    - [Wireframes](#wireframes "Wireframes")
-4. [Features](#features "Features")
+3. [Features](#features "Features")
    - [Common Features](#common-features "Common Features")
      - [Logo and Navigation Bar](#logo-and-navigation-bar "Logo and Navigation Bar")
      - [Favicon](#favicon "Favicon")
-     - [End Screen](#end-screen "End Screen")
-   - [Future Features](#future-features "Future Features")
-   - [Responsiveness](#responsiveness "Responsiveness")
-6. [Testing](#testing "Testing")
-   - [Bugs](#bugs "Bugs")
-   - [Validator Testing](#validator-testing "Validator Testing")
-7. [Deployment, Development & Version Control](#deployment-development--version-control)
+     - [Footer](#footer "Footer")
+   - [Portfolio](#portfolio "Portfolio")
+   - [Videos](#videos "Videos")
+   - [About](#about "About")
+   - [Contact](#contact "contact")
+4. [Technologies, Languages & Programs Used](#technologies-languages--programs-used)
+5. [Testing](#testing "Testing")
+6. [Deployment](#deployment "Deployment")
+    - [Local Deployment](#local-deployment "Local Deployment")
 8. [Credits](#credits "Credits")
 
 ## **User Stories**
@@ -34,7 +36,7 @@ Live deployment link can be found [here](https://ibericoalex.github.io/iberico-a
 
 - As a **user**, I want **to be able to view the footer section** so that I can **find social media links**.
 
-- As a **user**, I want **to be able to explore Iberico Alex's work, inclusing both photos and videos** so that I  **can appreciate the artist's talent and style**.
+- As a **user**, I want **to be able to explore Iberico Alex's work, including both photos and videos** so that I  **can appreciate the artist's talent and style**.
 
 - As a **user**, I want **to be able to learn more about the photographer** so that I can **ensure that his background and artistic approach align with my preferences**.
 
@@ -86,9 +88,9 @@ As the user navigates through the website, the following elements consistently a
 
     ![Footer](./assets/documentation/footer.png)
 
-### **Homepage/Portfolio**
+### **Portfolio**
 
-The landing page serves as the initial entry point for users when they first visit the website. It prominently showcases the portfolio of the photographer, providing a captivating introduction to their body of work.
+The landing page serves as the initial entry point for users when they first visit the website. It prominently showcases the portfolio of the photographer, providing a captivating introduction to his body of work.
 
 The photo gallery draws inspiration from the Code Institute Love Running gallery masonry. When hovering over an image, it reduces its opacity to indicate the selected photo. The ultimate goal is to enable image enlargement upon clicking; however, implementing this functionality would require the use of JavaScript.
 
@@ -132,6 +134,7 @@ The embedded Google Maps feature enables users to easily locate and identify the
 * [W3C Validator](https://validator.w3.org/): Tool for checking HTML and CSS code compliance with web standards.
 * [CodeAnywhere](https://codeanywhere.com/): Cloud-based integrated development environment (IDE) for coding, collaborating, and deploying projects.
 * [VSCode](https://code.visualstudio.com/): Free and highly extensible source code editor with built-in features for editing, debugging, and version control integration. It supports various programming languages and is available for multiple platforms.
+* [ChatGPT](https://chat.openai.com/): Artificial intelligence chatbot.
 
 ## **Testing**
 
@@ -148,8 +151,6 @@ The procedure for deployment followed the "Creating your site" steps provided in
 - The page refreshes and a website shall then deploy via a link.
 - The following is the live link deployed: https://ibericoalex.github.io/iberico-alex-photography/
 
-The live link can be found [here](https://adamgilroy22.github.io/happy-dog-cafe)
-
 ### **Local Deployment**
 
 This repository can be cloned and run locally with the following steps:
@@ -161,5 +162,20 @@ This repository can be cloned and run locally with the following steps:
 ## **Credits**
 
 ### **Code**
+- Code for image gallery inspired by Code Institute's Love Running walkthrough project with some tweaks to fit this website.
+- The footer code was also taken from the previously mentioned walkthrough project.
+- Youtube embedded feature code was used for the the curated video in the Videos page.
+- Google maps embeded feature code was the contact page.
+- Javascript code for current year on footer, provided by Samuel Ukachukwu [Samuel Ukachukwu](https://github.com/SamuelUkachukwu) during June's Pride hackathon event.
 ### **Content**
+- All website content was written by me and improved/corrected with ChatGPT.
+
+### **Design**
+- Wireframes produced with [Balsamiq](https://balsamiq.com/)
+- Colours were checked for readability with [Webaim](https://webaim.org/resources/contrastchecker/)
+
+### **Media**
+- Favicon design and created by me with Adobe Photoshop
+- All photos were taken by me
+- All videos were produced by me
 

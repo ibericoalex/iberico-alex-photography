@@ -25,7 +25,7 @@ Thorough manual testing was conducted during the project's development, aligning
 | -------- | ----- | ------ |
 | 3        | The footer appears on every page of the website, featuring social media links that enhance and complement the overall site experience. | PASS   |
 
-- As a **user**, I want **to be able to explore Iberico Alex's work, inclusing both photos and videos** so that I  **can appreciate the artist's talent and style**.
+- As a **user**, I want **to be able to explore Iberico Alex's work, including both photos and videos** so that I  **can appreciate the artist's talent and style**.
 
 | **Test** | Issue | Result |
 | -------- | ----- | ------ |
