@@ -43,9 +43,9 @@ As a **user**, I want **to be able to view the footer section** so that I can **
 
 As a **user**, I want **to be able to explore Iberico Alex's work, inclusing both photos and videos** so that I  **can appreciate the artist's talent and style**.
 
-As a **user**, I want **to be able to contact the artist** so that I can **inquire about the services offered**.
-
 As a **user**, I want **to be able to learn more about the photographer** so that I can **ensure that his background and artistic approach align with my preferences**.
+
+As a **user**, I want **to be able to contact the artist** so that I can **inquire about the services offered**.
 
 
 ## **Design**
@@ -144,79 +144,8 @@ The embedded Google Maps feature enables users to easily locate and identify the
 
 ## **Testing**
 
-### **Manual Testing**
+Testing available [here](./TESTING.md)
 
-Manual testing following the User Stories was carried out throughout the development of the project, with the final results available below.
-
-- As a **user**, I want **to be able to view a consistent colour scheme across the application** so that **the application and its navigation feels like a smooth transition**.
-
-| **Test** | Issue | Result |
-| -------- | ----- | ------ |
-| 1        | Consistent colour palette is evident across the application is consistent with itself. | PASS   |
-
-- As a **user**, I want **to be able to find and access the navigation bar** so that I can **navigate around the application with ease**.
-
-| **Test** | Issue | Result |
-| -------- | ----- | ------ |
-| 2        | Navigation bar can be found on every page of the application and delivers the user from page to page with ease. | PASS   |
-
-- As a **user**, I want **to be able to view the footer** so that I can **view any extra beneficial information regarding the application**.
-
-| **Test** | Issue | Result |
-| -------- | ----- | ------ |
-| 3        | The footer can be view across every page of the application and compliments the site with its information regarding the team. | PASS   |
-
-- As a **user**, I want **to be able to land on the home page** so that I am **able to have a central point of contact in the application**.
-
-| **Test** | Issue | Result |
-| -------- | ----- | ------ |
-| 4        | Users land on the home page as soon as they open the link and can find their back to it, itself serving as a link between the theme of the application: connection. | PASS   |
-
-- As a **user**, I want **to be able to find a question game** so that I can **play it in person with another stranger to get to know them better**.
-
-| **Test** | Issue | Result |
-| -------- | ----- | ------ |
-| 5        | A game that randomly generates interesting and personal questions has been created for the user for their entertainment. | PASS   |
-
-- As a **user**, I want **to be able to listen to different podcasts** so that I can **engage and associate with the experiences of others**.
-
-| **Test** | Issue | Result |
-| -------- | ----- | ------ |
-| 6        | Podcasts have been used on the testimonial page and generated for user curiosity to be enjoyed and explored. Users are even able to engage further by having the option to contact the application management to send their own experiential testimony. | PASS   |
-
-- As a **user**, I want **to be able to view historical information** so that I can **learn and appreciate LGBTQ+ history**.
-
-| **Test** | Issue | Result |
-| -------- | ----- | ------ |
-| 7        | An archive of current and historical LGBTQ+ people can be found as well as information for the user regarding historical events. | PASS   |
-
-## **Bugs**
-
-### **Fixed bugs**
-
-To find a list of fixed bugs that were mended during development, please click [here](https://github.com/keironchaudhry/june-pride-hackathon-2023/issues?q=label%3Abug+is%3Aclosed).
-
-### **Remaining bugs**
-
-* In the testimonial page, at the smallest media query, there is a giant margin-right due to an image conflict.
-
-## **Validator Testing**
-
-### **HTML Validator**
-
-The [W3C Markup Validation Service](https://validator.w3.org/) for the HTML code was passed in as a URL and returned no errors.
-
-![html-validator-results](./assets/documentation/readme_images/html-validator.png)
-
-### **CSS Validator**
-
-The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for the CSS code brings up one single error which is connected to the Materialize library. For the CSS code available and developed by the team, there are no errors.
-
-![css-validator-results](./assets/documentation/readme_images/css-validator.png)
-
-### **JSHint**
-
-The [JSHint Validation Service](https://jshint.com/) for the JavaScript code was passed in as source code and returned no errors.
 
 ## **Deployment, Development & Version Control**
 
