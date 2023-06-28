@@ -128,61 +128,19 @@ The ultimate goal is to implement a functionality where clicking on the addition
 
 ![videos-page](./assets/documentation/videos-page.png)
 
-
 ### **About**
 
-This page serves as an opportunity for users to delve deeper into the photographer's background and learn more about their artistic journey and expertise. It provides valuable insights and information to help users gain a comprehensive understanding of the photographer's unique perspective and qualifications.
+This page serves as an opportunity for users to delve deeper into the photographer's background and learn more about their artistic journey and expertise.
 
 ![videos-page](./assets/documentation/about-page.png)
 
+### **Contact**
 
+The contact page provides users with a convenient means to directly reach out to the photographer and inquire about their services. The contact form, which includes required fields, ensures that all necessary information is correctly filled out.
 
+The embedded Google Maps feature enables users to easily locate and identify the precise geographical location where the photographer is based. This provides users with a convenient way to get a visual representation of the photographer's physical presence and facilitates better understanding of their location.
 
-* Landing page where user first arrives upon opening of application.
-* Single image has been split up into three different images that are links to separate pages in the application.
-
-
-
-
-![testimonials-page](./assets/documentation/features/testimonials-page.png)
-
-* Navigation bar available at the top of page.
-* Stylish hero image apparent upon opening of page.
-* Incorporation of a LGBTQ+ colour theme.
-
-![testimonials-page-example](./assets/documentation/features/testimonials-page-example.png)
-
-* Podcast samples are found and available on the testimonial page.
-* Users can actively engage with these podcasts and listen to them to engage with the application.
-
-![conversation-game](./assets/documentation/features/conversation-page.png)
-
-* Application contains a question-generator for in-person socialising. 
-* Questions are generated with JavaScript at random.
-* Users can engage with other people on a personal basis using this game.
-
-![milestones-page](./assets/documentation/features/milestones-page.png)
-
-* Milestone landing page has a historically relevant landing page.
-* Navigation bar can also be seen for user-ease.
-
-![milestones-page-example](./assets/documentation/features/milestones-page-example.png)
-
-* Example of historical description for user engagement.
-
-![milestones-page-second-hero](./assets/documentation/features/milestones-page-second-hero.png)
-
-* Relevant hero image for the milestone events.
-* Engaging, powerful imagery with strong references to the LGBTQ+ theme.
-
-![milestones-page-example-event](./assets/documentation/features/milestones-page-example-event.png)
-
-* Example of a historical event in LGBTQ+ history for educative purposes.
-
-![footer](./assets/documentation/features/footer.png)
-
-* Footer available at the bottom of every page.
-
+![videos-page](./assets/documentation/contact-page.png)
 
 ## **Testing**
 
