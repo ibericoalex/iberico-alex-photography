@@ -52,9 +52,9 @@ I personally tested the site on my iPhone 13 Pro and utilized DevTools to ensure
 
 - Iphone Pro 13
 ![Home](./assets/documentation/iphone13-home.jpg) 
-![Videos](./assets/documentation/iphone13-videos.png)
-![About](./assets/documentation/iphone13-about.png)
-![Contact](./assets/documentation/iphone13-contact.png)
+![Videos](./assets/documentation/iphone13-videos.PNG)
+![About](./assets/documentation/iphone13-about.PNG)
+![Contact](./assets/documentation/iphone13-contact.PNG)
 
 - iPad Air
 ![Home](./assets/documentation/iPad-home.png) 
@@ -62,3 +62,28 @@ I personally tested the site on my iPhone 13 Pro and utilized DevTools to ensure
 ![About](./assets/documentation/iPad-about.png)
 ![Contact](./assets/documentation/iPad-contact.png)
 
+### **Validator Testing**
+
+## **Validator Testing**
+
+### **HTML Validator**
+
+The [W3C Markup Validation Service](https://validator.w3.org/) for the HTML code was passed in as a URL and returned no errors.
+
+- [Portfolio Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Findex.html)
+![Portfolio Page Validation](./assets/documentation/html-validator-portfolio.png)
+
+- [Videos Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Fvideos.html)
+![Videos Page Validation](./assets/documentation/html-validator-portfolio.png)
+
+- [About Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Fabout.html)
+![About Page Validation](./assets/documentation/html-validator-portfolio.png)
+
+- [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Fcontact.html)
+![Contact Page Validation](./assets/documentation/html-validator-portfolio.png)
+
+### **CSS Validator**
+
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for the CSS code brings up one single error which is connected to the Materialize library. For the CSS code available and developed by the team, there are no errors.
+
+![css-validator-results](./assets/documentation/readme_images/css-validator.png)
