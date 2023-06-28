@@ -146,39 +146,29 @@ The embedded Google Maps feature enables users to easily locate and identify the
 
 Testing available [here](./TESTING.md)
 
+## **Deployment**
 
-## **Deployment, Development & Version Control**
-
-The development environment used for this project was VSCode, GitPod and CodeAnywhere.
-
-Each software developer on the team created their own individual branch divergent from main from the get-go and have communicated via Slack to collaborate, pitch ideas, fix bugs and talk about relevant Pull Requests. Regular commits and pushes to Github have been employed to be able to track and trace the development process of the web application.
-
-For local deployments instructions shall be written below, along with instructions with deployment to GitHub Pages, the hosting service used to deploy this particular website.
-
-### **Local Deployment**
-
-This repository can be cloned and run locally with the following steps:
-
-- Login to GitHub.
-- Select repository named: keironchaudhry/june-pride-hackathon-2023
-- Click code toggle button and copy the url (i.e., https://github.com/keironchaudhry/june-pride-hackathon-2023.git).
-- In your IDE, open the terminal and run the git clone command (i.e., git clone https://github.com/keironchaudhry/june-pride-hackathon-2023.git). The repository will now be cloned in your workspace.
-
-### **Deployment to GitHub**
-
-The live version of the project is deployed at GitHub pages.
-
-The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs.
-
+The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs:
 - Log into Github.
 - Select desired GitHub Repository to be deployed live.
 - Underneath the repository name, click the “Settings” option.
 - In the sub-section list on the left, under “Code and automation”, click “Pages”.
 - Within the ”Source” section choose ”main” as Branch and root as folder and click ”Save”.
 - The page refreshes and a website shall then deploy via a link.
-- The following is the live link deployed: 
+- The following is the live link deployed: https://ibericoalex.github.io/iberico-alex-photography/
+
+The live link can be found [here](https://adamgilroy22.github.io/happy-dog-cafe)
+
+### **Local Deployment**
+
+This repository can be cloned and run locally with the following steps:
+- Login to GitHub.
+- Select repository named: ibericoalex/iberico-alex-photography
+- Click code toggle button and copy the url (i.e., https://github.com/ibericoalex/iberico-alex-photography.git).
+- In your IDE, open the terminal and run the git clone command (i.e., git clone https://github.com/ibericoalex/iberico-alex-photography.git). The repository will now be cloned in your workspace.
 
 ## **Credits**
+### **Code**
 
 ### **Acknowledgments**
 

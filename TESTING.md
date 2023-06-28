@@ -73,15 +73,19 @@ I personally tested the site on my iPhone 13 Pro and utilized DevTools to ensure
 The [W3C Markup Validation Service](https://validator.w3.org/) for the HTML code was passed in as a URL and returned no errors.
 
 - [Portfolio Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Findex.html)
+
 ![Portfolio Page Validation](./assets/documentation/html-validator-portfolio.png)
 
 - [Videos Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Fvideos.html)
+
 ![Videos Page Validation](./assets/documentation/html-validator-portfolio.png)
 
 - [About Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Fabout.html)
+
 ![About Page Validation](./assets/documentation/html-validator-portfolio.png)
 
 - [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fibericoalex.github.io%2Fiberico-alex-photography%2Fcontact.html)
+
 ![Contact Page Validation](./assets/documentation/html-validator-portfolio.png)
 
 ### **CSS Validator**
