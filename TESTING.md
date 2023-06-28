@@ -42,3 +42,23 @@ Thorough manual testing was conducted during the project's development, aligning
 | **Test** | Issue | Result |
 | -------- | ----- | ------ |
 | 6        | Users can conveniently fill in the contact form and effortlessly reach out to the artist for any inquiries or information. | PASS   |
+
+### **Cross-browser Testing**
+
+Once the site was published on GitHub Pages, I conducted thorough testing on multiple browsers, including Chrome, Firefox, and Edge. I'm pleased to report that the site loaded flawlessly on all browsers without any issues or discrepancies.
+
+### **Compatability and Responsiveness Testing**
+I personally tested the site on my iPhone 13 Pro and utilized DevTools to ensure responsiveness across various screen sizes. The site performed seamlessly on all devices, and the content adjusted flawlessly as intended for each screen size.
+
+- Iphone Pro 13
+![Home](./assets/documentation/iphone13-home.jpg) 
+![Videos](./assets/documentation/iphone13-videos.png)
+![About](./assets/documentation/iphone13-about.png)
+![Contact](./assets/documentation/iphone13-contact.png)
+
+- iPad Air
+![Home](./assets/documentation/iPad-home.png) 
+![Videos](./assets/documentation/iPad-videos.png)
+![About](./assets/documentation/iPad-about.png)
+![Contact](./assets/documentation/iPad-contact.png)
+
