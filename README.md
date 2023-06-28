@@ -113,7 +113,7 @@ The ultimate goal is to implement a functionality where clicking on the addition
 
 ### **About**
 
-This page serves as an opportunity for users to delve deeper into the photographer's background and learn more about their artistic journey and expertise.
+This page serves as an opportunity for users to delve deeper into the photographer's background and learn more about his artistic journey and expertise.
 
 ![videos-page](./assets/documentation/about-page.png)
 
@@ -170,7 +170,7 @@ This repository can be cloned and run locally with the following steps:
 - The Google Maps embedded feature code was utilized on the Contact page.
 - The JavaScript code for displaying the current year in the footer was generously provided by [Samuel Ukachukwu](https://github.com/SamuelUkachukwu) during June's Pride hackathon event.  
 ### **Content**
-- I personally wrote all the content on the website, including the README file. The content was then refined and corrected with the help of ChatGPT.
+- I personally wrote all the content on the website. The content was then refined and corrected with the help of ChatGPT, including the README file.
 
 ### **Design**
 - Wireframes were created using [Balsamiq](https://balsamiq.com/)
