@@ -14,10 +14,7 @@ Live deployment link can be found [here](https://ibericoalex.github.io/iberico-a
    - [Fonts](#fonts "Fonts")
    - [Wireframes](#wireframes "Wireframes")
 3. [Features](#features "Features")
-   - [Common Features](#common-features "Common Features")
-     - [Logo and Navigation Bar](#logo-and-navigation-bar "Logo and Navigation Bar")
-     - [Favicon](#favicon "Favicon")
-     - [Footer](#footer "Footer")
+   - [Common Features](#common-features "Common Features")    
    - [Portfolio](#portfolio "Portfolio")
    - [Videos](#videos "Videos")
    - [About](#about "About")
@@ -27,6 +24,10 @@ Live deployment link can be found [here](https://ibericoalex.github.io/iberico-a
 6. [Deployment](#deployment "Deployment")
     - [Local Deployment](#local-deployment "Local Deployment")
 8. [Credits](#credits "Credits")
+    - [Code](#code "Code")
+    - [Content](#content "Content")
+    - [Design](#design "Design")
+    - [Media](#media "Media")
 
 ## **User Stories**
 
@@ -73,6 +74,7 @@ Before proceeding with any HTML or CSS coding, I made use of Balsamiq to create 
 ## **Features**
 ### **Common Features**
 As the user navigates through the website, the following elements consistently appear across every page. These elements maintain a cohesive presence throughout the user's browsing experience.
+
  - **Logo and Navigation Bar** 
     - The logo and navigation bar are prominently displayed on every page of the website. These elements have been carefully designed and optimized to ensure seamless functionality across various screen sizes. The logo serves as a clickable link, directing users back to the homepage/portfolio. Additionally, each link within the navigation menu accurately leads users to the corresponding page, enhancing the overall user experience.
 
@@ -162,20 +164,20 @@ This repository can be cloned and run locally with the following steps:
 ## **Credits**
 
 ### **Code**
-- Code for image gallery inspired by Code Institute's Love Running walkthrough project with some tweaks to fit this website.
-- The footer code was also taken from the previously mentioned walkthrough project.
-- Youtube embedded feature code was used for the the curated video in the Videos page.
-- Google maps embeded feature code was the contact page.
-- Javascript code for current year on footer, provided by Samuel Ukachukwu [Samuel Ukachukwu](https://github.com/SamuelUkachukwu) during June's Pride hackathon event.
+- The image gallery code took inspiration from Code Institute's Love Running walkthrough project, with custom tweaks for this website.
+- The footer code was borrowed from the same Love Running walkthrough project.
+- The YouTube embedded feature code was used for displaying the curated video on the Videos page.
+- The Google Maps embedded feature code was utilized on the Contact page.
+- The JavaScript code for displaying the current year in the footer was generously provided by [Samuel Ukachukwu](https://github.com/SamuelUkachukwu) during June's Pride hackathon event.  
 ### **Content**
-- All website content was written by me and improved/corrected with ChatGPT.
+- I personally wrote all the content on the website, including the README file. The content was then refined and corrected with the help of ChatGPT.
 
 ### **Design**
-- Wireframes produced with [Balsamiq](https://balsamiq.com/)
-- Colours were checked for readability with [Webaim](https://webaim.org/resources/contrastchecker/)
+- Wireframes were created using [Balsamiq](https://balsamiq.com/)
+- The color scheme was carefully validated for readability using [Webaim](https://webaim.org/resources/contrastchecker/)
 
 ### **Media**
-- Favicon design and created by me with Adobe Photoshop
-- All photos were taken by me
-- All videos were produced by me
+- The favicon was designed and created by me using Adobe Photoshop.
+- All the photos displayed on the website were captured by me.
+- I personally produced all the videos featured on the website.
 

@@ -64,8 +64,8 @@ I personally tested the site on my iPhone 13 Pro and utilized DevTools to ensure
 ![About](./assets/documentation/iPad-about.png)
 ![Contact](./assets/documentation/iPad-contact.png)
 
-### **Validator Testing**
-
+## **Bugs**
+Throughout the development of the website, no significant bugs were encountered. However, a minor issue was identified regarding the image dimensions. The actual dimensions of the images were 1920x1080px, but it was discovered that they only needed to be 500px in length on the widest side. This discrepancy was rectified to ensure optimal display and performance.
 ## **Validator Testing**
 
 ### **HTML Validator**
@@ -96,7 +96,7 @@ No errors were returned through the official [W3C CSS Validation Service](https:
 
 ### **Performance Testing**
 
-The website underwent performance testing using the Lighthouse feature in Google Chrome's Developer Tools.
+The website underwent performance testing using the Lighthouse feature in Google Chrome's Developer Tools. The results can be found below. I am very pleased with the results.
 
 - Portfolio page
 
