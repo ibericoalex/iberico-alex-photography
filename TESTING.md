@@ -51,12 +51,14 @@ Once the site was published on GitHub Pages, I conducted thorough testing on mul
 I personally tested the site on my iPhone 13 Pro and utilized DevTools to ensure responsiveness across various screen sizes. The site performed seamlessly on all devices, and the content adjusted flawlessly as intended for each screen size.
 
 - Iphone Pro 13
+
 ![Home](./assets/documentation/iphone13-home.jpg) 
 ![Videos](./assets/documentation/iphone13-videos.PNG)
 ![About](./assets/documentation/iphone13-about.PNG)
 ![Contact](./assets/documentation/iphone13-contact.PNG)
 
 - iPad Air
+
 ![Home](./assets/documentation/iPad-home.png) 
 ![Videos](./assets/documentation/iPad-videos.png)
 ![About](./assets/documentation/iPad-about.png)
@@ -93,13 +95,17 @@ No errors were returned through the official [W3C CSS Validation Service](https:
 The website underwent performance testing using the Lighthouse feature in Google Chrome's Developer Tools.
 
 - Portfolio page
+
 ![css-validator-results](./assets/documentation/lighthouse-portfolio.png)
 
 - Videos page
+
 ![css-validator-results](./assets/documentation/lighthouse-videos.png)
 
 - About page
+
 ![css-validator-results](./assets/documentation/lighthouse-about.png)
 
 - Contact page
+
 ![css-validator-results](./assets/documentation/lighthouse-contact.png)
