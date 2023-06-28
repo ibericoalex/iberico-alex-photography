@@ -5,10 +5,6 @@
     scroll-behavior: smooth;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
@@ -52,7 +48,6 @@ h1 {
 
 /* ------------ NAVIGATION LINKS ------------ */
 
-
 #menu {
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -87,9 +82,6 @@ h1 {
 }
 
 
-
-
-
 /* ------------ IMAGE GALLERY ------------ */
 
 .photos {
@@ -110,10 +102,6 @@ h1 {
 .photos>img:hover {
     opacity: 0.5;
 }
-
-
-
-
 
 
 /* ------------ FOOTER ------------ */
@@ -150,10 +138,6 @@ footer {
 }
 
 
-
-
-
-
 /* ------------ VIDEO CAROUSEL ------------ */
 
 .video-carousel {
@@ -161,7 +145,6 @@ footer {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    /* padding-top: 5%; */
     padding: 10px;
 }
 
@@ -210,9 +193,7 @@ footer {
 }
 
 
-
-
-/* ------------ ABOUT ME ------------ */
+/* ------------ ABOUT ------------ */
 
 .about-container {
     display: flex;
@@ -265,7 +246,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* padding-top: 5%; */
     flex-direction: row;
     align-content: space-around;
     padding: 10px;
@@ -341,19 +321,15 @@ footer {
 
 .google-map {
     margin-right: auto;
-    margin-left: 50px;
-    /* display: flex; */
-    /* width: calc(100% - 20px);
-    flex-direction: column; */
-    
+    margin-left: 50px;   
 }
 
 .google-map iframe {
     min-height: 606px;
     width: 400px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
+
 
 /* ------------ MEDIA QUERIES ------------ */
 
@@ -363,7 +339,6 @@ footer {
     .photos {
         column-count: 4;
     }
-
 }
 
 
@@ -375,7 +350,6 @@ footer {
         display: flex;
         flex-direction: column; 
         align-items: center; 
-        /* background-color: blue */
     }
 
     #logo {
@@ -383,8 +357,7 @@ footer {
         line-height: normal;
         margin: 0;
     }
-    
-    
+        
     #menu {
         margin-right: 0;
         line-height: 50px;
@@ -412,24 +385,18 @@ footer {
     }
 
     .about-container {
-        /* align-items: center; */
-        /* text-align: center; */
         flex-direction: column;
         margin: 3% 10%;
     }
 
     .about-image {
         flex: 0 0 50%;
-        /* flex-basis: 100%; */
-        /* background-color: #f00; */
         margin: 0;
         left: 0;
     }
 
     .about-quote {  
         flex: 0 0 50%;  
-        /* flex-basis: 100%; */
-        /* background-color: rgb(21, 18, 207); */
         font-size: 1.2rem;
         text-align: center;
         right: 0;
@@ -440,9 +407,7 @@ footer {
         bottom: 0rem;
         margin: 10px 0 30px 0; 
         left: 0;
-
-    }
-    
+    }    
 }
 
 /* For larger to medium screens size from 650px wide and down */
@@ -457,7 +422,6 @@ footer {
     .content {
         padding-top: 90px;
     }
-
 }
 
 /* For larger to medium screens size from 500px wide and down */
