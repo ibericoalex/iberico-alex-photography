@@ -4,7 +4,7 @@ Iberico Alex Photography is a website that represents my own work as a freelance
 
 Live deployment link can be found [here](https://ibericoalex.github.io/iberico-alex-photography/).
 
-![Website mockup](./assets/documentation/website-mockup.png)
+![Website mockup](./assets/documentation/Website-mockup.png)
 
 # Table of Contents
 
@@ -107,9 +107,19 @@ As the user navigates through the website, the following elements consistently a
     ![Footer](./assets/documentation/footer.png)
 
 
-### **Existing Features**
+### **Homepage/Portfolio**
 
-![landing-page](./assets/documentation/features/landing-page.png)
+The landing page serves as the initial entry point for users when they first visit the website. It prominently showcases the portfolio of the photographer, providing a captivating introduction to their body of work.
+
+The gallery
+
+![landing-page](./assets/documentation/landing-page.png)
+
+### **Videos**
+
+The landing page serves as the initial entry point for users when they first visit the website. It prominently showcases the portfolio of the photographer, providing a captivating introduction to their body of work.
+
+![landing-page](./assets/documentation/videos-page.png)
 
 * Landing page where user first arrives upon opening of application.
 * Single image has been split up into three different images that are links to separate pages in the application.
