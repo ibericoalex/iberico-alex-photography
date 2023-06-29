@@ -1,4 +1,18 @@
-## **Testing**
+## **Table of Contents**
+
+1. [Testing](#testing "Testing")
+   - [User Testing](#user-testing "User Testing")
+   - [Manual Testing](#manual-testing "Manual Testing")
+   - [Cross-browser Testing](#cross-browser-testing "Cross-browser Testing")
+   - [Compatability and Responsiveness Testing](#compatability-and-responsiveness-testing "Compatability and Responsiveness Testing")
+2. [Bugs](#bugs "Bugs")
+3. [Validator Testing](#validator-testing "Validator Testing")
+   - [HTML Validator](#html-validator "HTML Validator")    
+   - [CSS Validator](#css-validator "CSS Validator")
+   - [Performance Testing](#performance-testing "Performance Testing")
+
+    
+    ## **Testing**
 
 ### **User Testing**
 After deploying the site, I shared the link with my family and friends for testing purposes, and I received positive feedback from everyone. They found the site easy to navigate, and it displayed beautifully on all of their devices without any issues.
@@ -65,7 +79,12 @@ I personally tested the site on my iPhone 13 Pro and utilized DevTools to ensure
 ![Contact](./assets/documentation/iPad-contact.png)
 
 ## **Bugs**
-Throughout the development of the website, no significant bugs were encountered. However, a minor issue was identified regarding the image dimensions. The actual dimensions of the images were 1920x1080px, but it was discovered that they only needed to be 500px in length on the widest side. This discrepancy was rectified to ensure optimal display and performance.
+During the website development process, no significant bugs were encountered. However, two minor issues were identified:
+
+1. **Image Dimensions**: It was discovered that the images had dimensions of 1920x1080px, while only needing to be 500px in length on the widest side. This was adjusted to optimize display and performance.
+
+2. **Navigation Bar on Smallest Screen Size**: On screens with a width of 320px, there is a slight overlap in the navigation bar links. 
+
 ## **Validator Testing**
 
 ### **HTML Validator**
